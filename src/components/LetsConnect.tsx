@@ -147,7 +147,7 @@ const LetsConnect = () => {
             <div className="connect-character-wrapper" ref={characterRef}>
               <div className="connect-glow"></div>
               <img
-                src="/images/Telephone.jpg"
+                src={`${import.meta.env.BASE_URL}images/Telephone.jpg`}
                 alt="3D Character with telephone"
                 className="connect-character-img"
               />

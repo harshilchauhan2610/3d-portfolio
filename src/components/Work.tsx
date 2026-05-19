@@ -3,33 +3,35 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
+const BASE = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: "AutoHub",
     category: "Modern Automotive Marketplace Platform",
     tools: "UI/UX System, Scalable Design, Premium Frontend",
-    image: "/images/autohub.png",
+    image: `${BASE}images/autohub.png`,
     link: "",
   },
   {
     title: "Coming Soon",
     category: "Project Under Development",
     tools: "Stay Tuned for Updates",
-    image: "/images/coming-soon.png",
+    image: `${BASE}images/coming-soon.png`,
     link: "",
   },
   {
     title: "Coming Soon",
     category: "Project Under Development",
     tools: "Stay Tuned for Updates",
-    image: "/images/coming-soon.png",
+    image: `${BASE}images/coming-soon.png`,
     link: "",
   },
   {
     title: "Coming Soon",
     category: "Project Under Development",
     tools: "Stay Tuned for Updates",
-    image: "/images/coming-soon.png",
+    image: `${BASE}images/coming-soon.png`,
     link: "",
   },
 ];
